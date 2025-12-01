@@ -8,4 +8,6 @@ set(CMAKE_EXE_LINKER_FLAGS "-static")
 add_executable(ray_tracing_in_one_weekend main.cpp
         vec3.h
         color.h
-        ray.h)
+        ray.h
+        hittable.h
+        sphere.h)
